@@ -1,9 +1,13 @@
 This is forked and modified from the https://github.com/dairal/common-sensors
 
+New additions:
+- Zed 2 sensor 
+
 # common-sensors
 
 ________________________________
-**Note:** This is a reupload of the common-sensors repo that was previously found at https://github.com/JenniferBuehler/common-sensors but seems to be removed now. The Dockerfile from the original repo is not contained.
+**Note:** This is a reup of the common-sensors repo that was previously found at https://github.com/JenniferBuehler/common-sensors but seems to be removed now. 
+The Dockerfile from the original repo is not contained.
 ________________________________
 
 A collection of commonly used sensors: urdf files and a few tools
@@ -20,6 +24,7 @@ Includes:
 * Xtion sensor based on [robotnik sensors](https://github.com/RobotnikAutomation/robotnik_sensors/)
 * Hokuyo 04lx based on [robotnik_sensors](https://github.com/RobotnikAutomation/robotnik_sensors/)
 * Hokuyo utm30lx based on [hector_sensors_description](http://wiki.ros.org/hector_sensors_description) 
+* ZED 2 sensor based on [leo_erc_description](https://github.com/EuropeanRoverChallenge/ERC-Remote-Navigation-Sim) - from ERC Remote Navigation Simulation
 * from Uni Texas: copied the FootprintFilter and NanToInfFilter. Here is their [LICENSE](https://github.com/utexas-bwi/segbot/blob/devel/LICENSE).
 
 This package has the aim of grouping several simple sensor models such that they can be used in the other packages without
